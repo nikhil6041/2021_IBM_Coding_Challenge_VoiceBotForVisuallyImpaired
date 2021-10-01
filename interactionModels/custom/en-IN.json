@@ -1,0 +1,229 @@
+{
+  "interactionModel": {
+    "languageModel": {
+      "invocationName": "info time",
+      "intents": [
+        {
+          "name": "AMAZON.CancelIntent",
+          "samples": []
+        },
+        {
+          "name": "AMAZON.HelpIntent",
+          "samples": []
+        },
+        {
+          "name": "AMAZON.StopIntent",
+          "samples": []
+        },
+        {
+          "name": "TrainsBetweenStationsIntent",
+          "slots": [
+            {
+              "name": "cityName",
+              "type": "cityName"
+            }
+          ],
+          "samples": [
+            "trains to {cityName} from {cityName}",
+            "trains from {cityName} to {cityName}",
+            "available trains between {cityName} and {cityName}",
+            "what are the trains between {cityName} and {cityName}",
+            "tell me the trains between {cityName} and {cityName}"
+          ]
+        },
+        {
+          "name": "AMAZON.NavigateHomeIntent",
+          "samples": []
+        },
+        {
+          "name": "AMAZON.FallbackIntent",
+          "samples": []
+        },
+        {
+          "name": "TrainInformationIntent",
+          "slots": [
+            {
+              "name": "train_name",
+              "type": "train_name"
+            }
+          ],
+          "samples": [
+            "tell me about {train_name}",
+            "give me the information about {train_name}",
+            "tell me the current status of {train_name}"
+          ]
+        }
+      ],
+      "types": [
+        {
+          "values": [
+            {
+              "name": {
+                "value": "jamshedpur",
+                "synonyms": [
+                  "tatanagar"
+                ]
+              }
+            },
+            {
+              "name": {
+                "value": "indore"
+              }
+            },
+            {
+              "name": {
+                "value": "dehradun"
+              }
+            },
+            {
+              "name": {
+                "value": "lahore"
+              }
+            },
+            {
+              "name": {
+                "value": "amritsar"
+              }
+            },
+            {
+              "name": {
+                "value": "bhopal"
+              }
+            },
+            {
+              "name": {
+                "value": "meerut"
+              }
+            },
+            {
+              "name": {
+                "value": "jodhpur"
+              }
+            },
+            {
+              "name": {
+                "value": "chandigarh"
+              }
+            },
+            {
+              "name": {
+                "value": "allahabad"
+              }
+            },
+            {
+              "name": {
+                "value": "ahmedabad"
+              }
+            },
+            {
+              "name": {
+                "value": "nagpur"
+              }
+            },
+            {
+              "name": {
+                "value": "kanpur"
+              }
+            },
+            {
+              "name": {
+                "value": "varanasi"
+              }
+            },
+            {
+              "name": {
+                "value": "lucknow"
+              }
+            },
+            {
+              "name": {
+                "value": "patna"
+              }
+            },
+            {
+              "name": {
+                "value": "jaipur"
+              }
+            },
+            {
+              "name": {
+                "value": "hyderabad"
+              }
+            },
+            {
+              "name": {
+                "value": "bangalore"
+              }
+            },
+            {
+              "name": {
+                "value": "pune"
+              }
+            },
+            {
+              "name": {
+                "value": "kolkata",
+                "synonyms": [
+                  "calcutta"
+                ]
+              }
+            },
+            {
+              "name": {
+                "value": "mumbai",
+                "synonyms": [
+                  "bombay"
+                ]
+              }
+            },
+            {
+              "name": {
+                "value": "delhi",
+                "synonyms": [
+                  "new delhi"
+                ]
+              }
+            }
+          ],
+          "name": "cityName"
+        },
+        {
+          "values": [
+            {
+              "name": {
+                "value": "Kochi express"
+              }
+            },
+            {
+              "name": {
+                "value": "Nizamuddin express"
+              }
+            },
+            {
+              "name": {
+                "value": "Kottayam express"
+              }
+            },
+            {
+              "name": {
+                "value": "jaipur express"
+              }
+            },
+            {
+              "name": {
+                "value": "rajdhani express"
+              }
+            },
+            {
+              "name": {
+                "value": "Shatabdi"
+              }
+            }
+          ],
+          "name": "train_name"
+        }
+      ]
+    }
+  },
+  "version": "4"
+}

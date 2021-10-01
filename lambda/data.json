@@ -1,0 +1,51 @@
+{ "data": [
+        {
+            "trainname":"Shatabdi",
+            "seatavailable":50,
+            "city":"Bangalore",
+            "trainarrival":"12:08 am",
+            "traindeparture":"07:09 pm",
+            "price":345
+        },
+        {
+            "trainname":"Rajdhani Express",
+            "seatavailable":30,
+            "city":"Delhi",
+            "trainarrival":"01:08 am",
+            "traindeparture":"13:09 pm",
+            "price":415
+        },
+        {
+            "trainname":"Jaipur Express",
+            "seatavailable":13,
+            "city":"Jaipur",
+            "trainarrival":"03:08 am",
+            "traindeparture":"09:09 pm",
+            "price":500
+        },
+        {
+            "trainname":"Kottayam Express",
+            "seatavailable":8,
+            "city":"Kottayam",
+            "trainarrival":"11:00 am",
+            "traindeparture":"13:09 pm",
+            "price":215
+        },
+        {
+            "trainname":"Nizamuddin Express",
+            "seatavailable":79,
+            "city":"Hyderabad",
+            "trainarrival":"00:00 am",
+            "traindeparture":"07:09 am",
+            "price":400
+        },
+        {
+            "trainname":"Kochi Express",
+            "seatavailable":13,
+            "city":"Kochi",
+            "trainarrival":"13:00 pm",
+            "traindeparture":"07:09 am",
+            "price":333
+        }
+    ]
+}
