@@ -5,3 +5,6 @@ The project focuses on building a voice bot for the purpose of helping visually 
 The usecases covered under this project are :
 1. Fetching information from IRCTC as per the user's needs. 
 2. Getting recent cricket scores. 
+
+
+`Link to the demo:`[https://youtu.be/lohb9aHaifU]
